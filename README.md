@@ -20,6 +20,9 @@ The caption of the modal window can be defined/modified by assigning/editing the
 Implementing IMAGG is straightforward.
 You have the option to customize its appearance by implementing your custom CSS styles.
 
+###   - Default stylesheet
+    <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/css/IMAGG.css"></script>
+    
 Here is an example:
 https://github.com/manuelmsni/IMAGG/blob/main/index.html
 
