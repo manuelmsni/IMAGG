@@ -58,9 +58,11 @@
     width: 100%;
     font-family: monospace;
     font-size: 30px;
+    text-align: left;
 }
 
 #BodyIMAGG figure figcaption{
     font-family: sans-serif;
     padding-bottom: 2rem;
+    text-align: left;
 }
