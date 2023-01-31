@@ -10,7 +10,7 @@ The caption of the modal window can be defined/modified by assigning/editing the
 
 ## Versions
 
-### - javascript
+### - JavaScript
 
 ### - jQuery
 
