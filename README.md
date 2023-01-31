@@ -1,8 +1,9 @@
 # IMAGG
 ## Description:
 IMAGG is a lightweight plugin that triggers modal windows upon clicking a specific image.
-You can select the images that initiate the modal window by assigning the class "triggerIMAGG".
-The header of the modal window can be defined/modified by assigning/editing the "title" attribute in the HTML code for the "triggerIMAGG".
+
+You can define the images that will initiate the modal window giving them the class "triggerIMAGG".
+The title of the modal window can be defined/modified by assigning/editing the "title" attribute in the HTML code for the "triggerIMAGG".
 The caption of the modal window can be defined/modified by assigning/editing the "alt" attribute in the HTML code for the "triggerIMAGG".
 
 ## Dependencies:
