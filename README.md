@@ -8,20 +8,21 @@ The title of the modal window can be defined/modified by assigning/editing the "
 
 The caption of the modal window can be defined/modified by assigning/editing the "alt" attribute in the HTML code for the "triggerIMAGG".
 
-## Versions
-
-###   - JavaScript
-    <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
-
-###   - jQuery
-    <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
         
 ## Set up IMAGG:
 Implementing IMAGG is straightforward.
 You have the option to customize its appearance by implementing your custom CSS styles.
 
-###   - Default stylesheet
+###   - Default stylesheet (CSS)
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/css/IMAGG.css"></script>
+
+#### IMPORTANT! Choose only one of the options bellow.
+
+###   - (option 1) JavaScript
+    <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
+
+###   - (option 2) jQuery
+    <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
 Here is an example:
 https://github.com/manuelmsni/IMAGG/blob/main/index.html
