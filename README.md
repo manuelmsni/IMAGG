@@ -11,7 +11,7 @@ The caption of the modal window can be defined/modified by assigning/editing the
 ## Versions
 
 ###   - JavaScript
-        - 1.0
+        - <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
 
 ###   - jQuery
         - 1.0
