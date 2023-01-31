@@ -1,4 +1,7 @@
 # IMAGG
+
+<img src="https://github.com/manuelmsni/IMAGG/blob/main/IMAGG.jpg?raw=true" style="max-width: 400px; margin: 0 auto">
+
 ## Description:
 IMAGG is a lightweight plugin that triggers modal windows upon clicking a specific image.
 
