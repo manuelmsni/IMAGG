@@ -17,7 +17,7 @@ You have the option to customize its appearance by implementing your custom CSS 
 ###   - Default stylesheet (CSS)
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/css/IMAGG.css"></script>
 
-#### IMPORTANT! Choose only one of the options bellow.
+#### IMPORTANT! Choose only one of the options bellow:
 
 ###   - (option 1) JavaScript
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
@@ -25,9 +25,9 @@ You have the option to customize its appearance by implementing your custom CSS 
 ###   - (option 2) jQuery
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
-#### Examples
+#### Examples:
     
-Here is an example:
+Here is an example of the implementation in the html:
 https://github.com/manuelmsni/IMAGG/blob/main/index.html
 
 You can test it here:
