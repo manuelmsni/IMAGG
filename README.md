@@ -10,10 +10,12 @@ The caption of the modal window can be defined/modified by assigning/editing the
 
 ## Versions
 
-### - JavaScript
+###   - JavaScript
+        - 1.0
 
-### - jQuery
-
+###   - jQuery
+        - 1.0
+        
 ## Set up IMAGG:
 Implementing IMAGG is straightforward.
 You have the option to customize its appearance by implementing your custom CSS styles.
