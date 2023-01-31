@@ -25,9 +25,11 @@ You have the option to customize its appearance by implementing your custom CSS 
 #### IMPORTANT! Choose only one of the options bellow:
 
 ###   - (Option 1) JavaScript
+    <!-- This goes at the end of the body in your html -->
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
 
 ###   - (Option 2) jQuery
+    <!-- This goes at the end of the body in your html -->
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
 #### Examples:
