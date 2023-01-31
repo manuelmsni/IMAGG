@@ -37,5 +37,3 @@ https://github.com/manuelmsni/IMAGG/blob/main/index.html
 You can test it here:
 https://manuelmsni.github.io/IMAGG
 
-
-![alt IMAGG logo](https://github.com/manuelmsni/IMAGG/blob/main/IMAGG.jpg?raw=true)
