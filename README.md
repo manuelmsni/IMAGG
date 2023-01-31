@@ -23,10 +23,10 @@ You have the option to customize its appearance by implementing your custom CSS 
 
 #### IMPORTANT! Choose only one of the options bellow:
 
-###   - (option 1) JavaScript
+###   - (Option 1) JavaScript
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
 
-###   - (option 2) jQuery
+###   - (Option 2) jQuery
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
 #### Examples:
@@ -37,5 +37,4 @@ https://github.com/manuelmsni/IMAGG/blob/main/index.html
 You can test it here:
 https://manuelmsni.github.io/IMAGG
 
-## Project Logo
 ![alt IMAGG logo](https://github.com/manuelmsni/IMAGG/blob/main/IMAGG.jpg?raw=true)
