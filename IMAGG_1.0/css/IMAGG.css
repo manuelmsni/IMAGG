@@ -9,6 +9,10 @@
     display: none;
 }
 
+.triggerIMG:hover{
+    cursor: pointer;
+}
+
 #DivIMAGG{
     top: 0;
     position: fixed;
