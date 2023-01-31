@@ -8,6 +8,12 @@ The title of the modal window can be defined/modified by assigning/editing the "
 
 The caption of the modal window can be defined/modified by assigning/editing the "alt" attribute in the HTML code for the "triggerIMAGG".
 
+## Versions
+
+### - javascript
+
+### - jQuery
+
 ## Set up IMAGG:
 Implementing IMAGG is straightforward.
 You have the option to customize its appearance by implementing your custom CSS styles.
