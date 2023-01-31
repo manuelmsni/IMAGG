@@ -25,6 +25,8 @@ You have the option to customize its appearance by implementing your custom CSS 
 ###   - (option 2) jQuery
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
+#### Examples
+    
 Here is an example:
 https://github.com/manuelmsni/IMAGG/blob/main/index.html
 
