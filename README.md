@@ -19,6 +19,7 @@ Implementing IMAGG is straightforward.
 You have the option to customize its appearance by implementing your custom CSS styles.
 
 ###   - Default stylesheet (CSS)
+    <!-- This goes in the head of your html -->
     <link rel="stylesheet" href="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/css/IMAGG.css">
 
 #### IMPORTANT! Choose only one of the options bellow:
