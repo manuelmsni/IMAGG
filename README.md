@@ -4,7 +4,7 @@
 </p>
 
 ## Description:
-IMAGG is a lightweight plugin that triggers modal windows upon clicking a specific image.
+IMAGG is a lightweight script that triggers modal windows upon clicking a specific image.
 
 You can define the images that will initiate the modal window giving them the class "triggerIMAGG".
 
