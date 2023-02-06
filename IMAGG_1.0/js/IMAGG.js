@@ -4,8 +4,13 @@
  * version 1.0 || https://github.com/manuelmsni/IMAGG  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+var handleWheel = function(event) {
+  event.preventDefault();
+};
 
 document.onreadystatechange = () => {
+    
+    
     if (document.readyState === "complete") {
 
         /* Generates the html for the modal window */
@@ -59,6 +64,8 @@ document.onreadystatechange = () => {
 
             trigger.addEventListener("click", function triggerIMGG() {
                 //document.body.style.overflow = "hidden";
+                // desactivar el scroll
+                window.addEventListener("wheel", handleWheel, { passive: false });
                 document.getElementById("DivIMAGG").style.overflowY = "scroll";
                 document.getElementById("IMAGG").src = this.getAttribute("src");
                 document.getElementById("TitleIMAGG").innerText = this.getAttribute("title");
@@ -78,6 +85,8 @@ document.onreadystatechange = () => {
                     }
                     document.getElementById("DivIMAGG").style.overflow = "hidden";
                     //document.body.style.overflow = "auto";
+                    // activar el scroll
+                    window.removeEventListener("wheel", handleWheel);
                     document.getElementById("DivIMAGG").style.display = "none";
                 });
              
