@@ -58,8 +58,7 @@ document.onreadystatechange = () => {
         openTriggers.forEach(function (trigger) {
 
             trigger.addEventListener("click", function triggerIMGG() {
-                document.body.style.overflow = "hidden";
-                document.body.style.right = "17px";
+                //document.body.style.overflow = "hidden";
                 document.getElementById("DivIMAGG").style.overflowY = "scroll";
                 document.getElementById("IMAGG").src = this.getAttribute("src");
                 document.getElementById("TitleIMAGG").innerText = this.getAttribute("title");
@@ -78,8 +77,7 @@ document.onreadystatechange = () => {
                     return;
                     }
                     document.getElementById("DivIMAGG").style.overflow = "hidden";
-                    document.body.style.overflow = "auto";
-                    document.body.style.right = "0px";
+                    //document.body.style.overflow = "auto";
                     document.getElementById("DivIMAGG").style.display = "none";
                 });
              
