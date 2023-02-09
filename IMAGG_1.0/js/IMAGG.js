@@ -78,7 +78,7 @@ document.onreadystatechange = () => {
                     return;
                     }
                     document.getElementById("DivIMAGG").style.overflow = "hidden";
-                    //document.body.style.overflow = "auto";
+                    document.body.style.overflow = "auto";
                     document.getElementById("DivIMAGG").style.display = "none";
                 });
              
