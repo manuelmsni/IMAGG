@@ -59,7 +59,7 @@ document.onreadystatechange = () => {
         openTriggers.forEach(function (trigger) {
 
             trigger.addEventListener("click", function triggerIMGG() {
-                //document.body.style.overflow = "hidden";
+                document.body.style.overflow = "hidden";
                 document.getElementById("DivIMAGG").style.overflowY = "scroll";
                 document.getElementById("IMAGG").src = this.getAttribute("src");
                 document.getElementById("TitleIMAGG").innerText = this.getAttribute("title");
