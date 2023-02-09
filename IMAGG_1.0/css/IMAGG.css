@@ -9,6 +9,10 @@
     display: none;
 }
 
+.triggerIMAGG{
+    cursor: pointer;
+}
+
 #DivIMAGG{
     top: 0;
     position: fixed;
