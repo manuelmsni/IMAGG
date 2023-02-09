@@ -60,6 +60,7 @@ document.onreadystatechange = () => {
 
             trigger.addEventListener("click", function triggerIMGG() {
                 document.body.style.overflow = "hidden";
+                document.body.style.marginRight = "17px";
                 document.getElementById("DivIMAGG").style.overflowY = "scroll";
                 document.getElementById("IMAGG").src = this.getAttribute("src");
                 document.getElementById("TitleIMAGG").innerText = this.getAttribute("title");
@@ -79,6 +80,7 @@ document.onreadystatechange = () => {
                     }
                     document.getElementById("DivIMAGG").style.overflow = "hidden";
                     document.body.style.overflow = "auto";
+                    document.body.style.marginRight = "0";
                     document.getElementById("DivIMAGG").style.display = "none";
                 });
              
