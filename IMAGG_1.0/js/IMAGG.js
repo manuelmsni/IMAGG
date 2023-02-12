@@ -65,7 +65,7 @@ document.onreadystatechange = () => {
                 document.getElementById("IMAGG").src = this.getAttribute("src");
                 document.getElementById("TitleIMAGG").innerText = this.getAttribute("title");
                 document.getElementById("CaptionIMAGG").innerText = this.getAttribute("alt");
-                document.getElementById("DivIMAGG").style.display = "block";
+                 document.getElementById("DivIMAGG").classList.remove('hidden');
             });
         
             /* Triggers to close the modal window */ 
@@ -81,7 +81,7 @@ document.onreadystatechange = () => {
                     document.getElementById("DivIMAGG").style.overflow = "hidden";
                     document.body.style.overflow = "auto";
                     document.body.style.marginRight = "0";
-                    document.getElementById("DivIMAGG").style.display = "none";
+                    document.getElementById("DivIMAGG").classList.add('hidden');
                 });
              
             });
