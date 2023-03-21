@@ -10,7 +10,7 @@ You can define the images that will initiate the modal window giving them the cl
 
 The title of the modal window can be defined/modified by assigning/editing the "title" attribute in the HTML code for the "triggerIMAGG".
 
-The caption of the modal window can be defined/modified by assigning/editing the "alt" attribute in the HTML code for the "triggerIMAGG".
+The caption of the modal window can be defined/modified by assigning/editing the "alt" attribute in the HTML code for the "triggerIMAGG". You can use the 'IMAGG_ls' keyword in the 'alt' attribute to separate multiple paragraphs in your modal image.
 
         
 ## Easy set up IMAGG:
