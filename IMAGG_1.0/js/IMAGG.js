@@ -70,14 +70,24 @@ document.onreadystatechange = () => {
                 // Clears the content of the caption element
                 caption.innerHTML = '';
 
-                // split method divides the original string into an array of substrings
-                const lines = this.getAttribute("alt").split("IMAGG_ls");
+                const alt = this.getAttribute("alt");
 
-                // map method applies a function to each element in the array and creates a new array of <p> tags
-                const paragraphs = lines.map(line => `<p>${line}</p>`);
+                if(!this.hasAttribute("alt")){
 
-                // join method to combines all the <p> tags into a single string and set it as the content of the caption element
-                caption.innerHTML = paragraphs.join('');
+                    console.log("The HTML standard states that the \"alt\" attribute in an \<img\> tag is mandatory in terms of semantics!");
+
+                } else if(alt.includes("IMAGG_ls")){
+                    // split method divides the original string into an array of substrings
+                    const lines = alt.split("IMAGG_ls");
+
+                    // map method applies a function to each element in the array and creates a new array of <p> tags
+                    const paragraphs = lines.map(line => `<p>${line}</p>`);
+
+                    // join method to combines all the <p> tags into a single string and set it as the content of the caption element
+                    caption.innerHTML = paragraphs.join('');
+                } else{
+                    caption.innerHTML = `<p>${alt}</p>`;
+                }
                 
                 document.getElementById("DivIMAGG").classList.remove('hidden');
             });
