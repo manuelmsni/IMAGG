@@ -64,8 +64,22 @@ document.onreadystatechange = () => {
                 document.getElementById("DivIMAGG").style.overflowY = "scroll";
                 document.getElementById("IMAGG").src = this.getAttribute("src");
                 document.getElementById("TitleIMAGG").innerText = this.getAttribute("title");
-                document.getElementById("CaptionIMAGG").innerText = this.getAttribute("alt");
-                 document.getElementById("DivIMAGG").classList.remove('hidden');
+                
+                const caption = document.getElementById("CaptionIMAGG");
+
+                // Clears the content of the caption element
+                caption.innerHTML = '';
+
+                // split method divides the original string into an array of substrings
+                const lines = this.getAttribute("alt").split("IMAGG_ls");
+
+                // map method applies a function to each element in the array and creates a new array of <p> tags
+                const paragraphs = lines.map(line => `<p>${line}</p>`);
+
+                // join method to combines all the <p> tags into a single string and set it as the content of the caption element
+                caption.innerHTML = paragraphs.join('');
+                
+                document.getElementById("DivIMAGG").classList.remove('hidden');
             });
         
             /* Triggers to close the modal window */ 
