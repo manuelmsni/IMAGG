@@ -26,7 +26,7 @@ $(document).ready(
         $("#DivIMAGG").css('overflow-y','scroll');
         document.getElementById("IMAGG").src = $(this).attr('src');
         $("#TitleIMAGG").text($(this).attr('title'));
-        $("#CaptionIMAGG").text($(this).attr('alt'));
+        $("#CaptionIMAGG").html($(this).attr('alt').split("IMAGG_ls").map(line => `<p>${line}</p>`).join(''));
         $("#DivIMAGG").fadeIn('slow');
 
         $('.exitIMAGG').on('click', function closeModalWindow(e){
