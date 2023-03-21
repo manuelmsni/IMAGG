@@ -20,17 +20,18 @@ Implementing IMAGG is straightforward.
 You have the option to customize its appearance by implementing your custom CSS styles.
 
 ###   - Default stylesheet (CSS)
-    <!-- This goes in the head of your html -->
+    <!-- Place the following code in the HTML head -->
     <link rel="stylesheet" href="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/css/IMAGG.css">
 
 #### IMPORTANT! Choose only one of the options bellow:
 
 ###   - (Option 1) JavaScript
-    <!-- This goes at the end of the body in your html -->
+    <!-- Place the following code at the end of the body in your HTML file -->
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
 
 ###   - (Option 2) jQuery
-    <!-- This goes at the end of the body in your html -->
+(If you choose this option, you will need to import the jQuery libraries)
+    <!-- Place the following code at the end of the body in your HTML file -->
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
 #### Examples:
