@@ -12,6 +12,7 @@ The title of the modal window can be defined/modified by assigning/editing the "
 
 The caption of the modal window can be defined/modified by assigning/editing the "alt" attribute in the HTML code for the "triggerIMAGG". You can use the 'IMAGG_ls' keyword in the 'alt' attribute to separate multiple paragraphs in your modal image.
 
+GG, easy! :)
         
 ## Easy set up IMAGG:
 Implementing IMAGG is straightforward.
