@@ -30,7 +30,7 @@ You have the option to customize its appearance by implementing your custom CSS 
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/js/IMAGG.js"></script>
 
 ###   - (Option 2) jQuery
-(If you choose this option, you will need to import the jQuery libraries)
+    <!-- If you choose this option, you will need to import the jQuery libraries -->
     <!-- Place the following code at the end of the body in your HTML file -->
     <script src="https://manuelmsni.github.io/IMAGG/IMAGG_1.0_jQuery/js/IMAGG.js"></script>
     
