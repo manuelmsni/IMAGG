@@ -43,7 +43,7 @@
     text-shadow: #dadada 1px 2px;
 }
 
-#BodyIMAGG p {
+#BodyIMAGG>p {
     text-align: right;
     padding-top: 20px;
     padding-right: 20px;
@@ -51,11 +51,11 @@
     line-height: 20px;
 }
 
-#BodyIMAGG figure img {
+#IMAGG {
     width: 100%;
 }
 
-#BodyIMAGG figure h2 {
+#TitleIMAGG {
     border-top: 1px solid rgb(210, 212, 212);
     padding-top: 1rem;
     margin-bottom: 1rem;
@@ -65,8 +65,14 @@
     text-align: left;
 }
 
-#BodyIMAGG figure figcaption{
+#CaptionIMAGG {
     font-family: sans-serif;
     padding-bottom: 2rem;
     text-align: left;
+}
+
+#CaptionIMAGG p{
+    text-align: inherit;
+    font-size: 20px;
+    line-height: 20px;
 }
