@@ -21,7 +21,7 @@ You have the option to customize its appearance by implementing your custom CSS 
 
 ###   - Default stylesheet (CSS)
     <!-- Place the following code in the HTML head -->
-    <link rel="stylesheet" href="https://manuelmsni.github.io/IMAGG/IMAGG_1.0/css/IMAGG.css">
+    <link rel="stylesheet" href="https://manuelmsni.github.io/IMAGG/css/IMAGG_default.css">
 
 #### IMPORTANT! Choose only one of the options bellow:
 
