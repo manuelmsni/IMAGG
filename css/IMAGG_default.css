@@ -8,6 +8,10 @@
     display: none !important;
 }
 
+.hideScroll::-webkit-scrollbar {
+    width: 0;
+}
+
 .triggerIMAGG{
     cursor: pointer;
 }
